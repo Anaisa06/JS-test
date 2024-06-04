@@ -43,7 +43,16 @@
       "destination": "ANSERMA",
       "departure": "2024-06-09T19:45",
       "arrival": "2024-06-09T20:15",
-      "capacity": "30"
+      "capacity": "35"
+    },
+    {
+      "id": "4835",
+      "number": "EDF4",
+      "origin": "MEDELLÍN",
+      "destination": "SAN ANDRÉS",
+      "departure": "2024-06-24T08:17",
+      "arrival": "2024-06-23T08:17",
+      "capacity": "20"
     }
   ],
   "role": [
@@ -80,6 +89,14 @@
       "birthdate": "2011-09-28",
       "password": "123456",
       "roleId": 2
+    },
+    {
+      "id": "0273",
+      "name": "El Fore Master 3000",
+      "email": "fore.elmaster3000@crack.com",
+      "birthdate": "2024-06-03",
+      "password": "Anitalamasbonita@",
+      "roleId": 2
     }
   ],
   "bookings": [
@@ -94,6 +111,12 @@
       "flightId": "421b",
       "userId": "cd4f",
       "date": "2024-06-05T00:35:16.074Z"
+    },
+    {
+      "id": "da08",
+      "flightId": "91ec",
+      "userId": "0273",
+      "date": "2024-06-04T09:14:39.193Z"
     }
   ]
 }

@@ -55,8 +55,8 @@ export function EditFightScene(){
         $form[0].addEventListener('submit', async (event) => {
             event.preventDefault();
             if(confirm('¿Deseas guardar los cambios?')){
-                await fetchApi(`http://localhost:3000/flights`, {
-                    method:'PUT',
+                await fetchApi(`http://localhost:3000/flights/${flightId}`, {
+                    method:'PATCH',
                     headers: {
                         'Content-Type': 'application/json',
                     },
