@@ -1,0 +1,46 @@
+h1 span {
+    color: #F2EFEA;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 50vw;    
+    margin: 2rem auto;    
+}
+
+form label {
+    color: #F2EFEA;
+}
+
+form input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 50%;
+}
+
+form input:focus {
+    outline-color: #FC7753;
+    border: none;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #55917F;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;    
+    cursor: pointer;
+    width: 30%;
+}
+
+form .returnButton {
+    background-color: #FC7753;
+}

@@ -1,0 +1,99 @@
+{
+  "flights": [
+    {
+      "id": "93cd",
+      "number": "176E",
+      "origin": "CANCÚN",
+      "destination": "MONTERREY",
+      "departure": "2024-09-28 14:45:00",
+      "arrival": "2021-09-28 15:50:00",
+      "capacity": 65
+    },
+    {
+      "id": "91ec",
+      "number": "175A",
+      "origin": "BOGOTÁ",
+      "destination": "SANTA MARTA",
+      "departure": "2024-07-01 05:45:00",
+      "arrival": "2024-07-01 06:15:00",
+      "capacity": "80"
+    },
+    {
+      "id": "253f",
+      "number": "175D",
+      "origin": "QUITO",
+      "destination": "CALI",
+      "departure": "2024-12-06 20:45:00",
+      "arrival": "2024-12-07 05:30:00",
+      "capacity": "70"
+    },
+    {
+      "id": "14ef",
+      "number": "177B",
+      "origin": "MEDELLIN",
+      "destination": "LIMA",
+      "departure": "2024-11-06 18:45:00",
+      "arrival": "2024-11-07 12:30:00",
+      "capacity": "120"
+    },
+    {
+      "id": "421b",
+      "number": "FGR3",
+      "origin": "CISNEROS",
+      "destination": "ANSERMA",
+      "departure": "2024-06-09T19:45",
+      "arrival": "2024-06-09T20:15",
+      "capacity": "30"
+    }
+  ],
+  "role": [
+    {
+      "id": "1",
+      "name": "admin"
+    },
+    {
+      "id": "2",
+      "name": "user"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "admin",
+      "email": "admin@example.com",
+      "birthdate": "1998-12-06",
+      "password": "Admin123",
+      "roleId": "1"
+    },
+    {
+      "id": "a2c3",
+      "name": "Ana Isabel",
+      "email": "ana@gmail.com",
+      "birthdate": "1998-12-06",
+      "password": "123456",
+      "roleId": 2
+    },
+    {
+      "id": "cd4f",
+      "name": "Lulú",
+      "email": "lulu@gmail.com",
+      "birthdate": "2011-09-28",
+      "password": "123456",
+      "roleId": 2
+    }
+  ],
+  "bookings": [
+    {
+      "id": "144e",
+      "flightId": "14ef",
+      "userId": "cd4f",
+      "date": "2024-06-04T22:15:21.728Z"
+    },
+    {
+      "id": "edf9",
+      "flightId": "421b",
+      "userId": "cd4f",
+      "date": "2024-06-05T00:35:16.074Z"
+    }
+  ]
+}

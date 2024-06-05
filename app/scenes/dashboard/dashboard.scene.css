@@ -1,0 +1,94 @@
+h1 span {
+    color: #F2EFEA;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h3{
+    color: #373737;
+    text-align: center;
+}
+
+.card{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: white;   
+}
+
+.adminButtons{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;  
+    
+}
+
+.editButton{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #55917F;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;    
+    cursor: pointer;
+    width: 8vw;
+}
+
+.deleteButton{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #FC7753;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;    
+    cursor: pointer;
+    width: 8vw;
+}
+
+.createButtonContainer,
+.userButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+}
+
+.userButton button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #55917F;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;   
+    cursor: pointer;
+    width: 8vw;
+}
+
+.createButtonContainer button{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #FC7753;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;   
+    cursor: pointer;
+    width: 15vw;
+}
